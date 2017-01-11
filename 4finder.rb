@@ -16,7 +16,7 @@ pages = [board]
 1.upto(15) {|n| pages << "#{board}#{n.to_s}" }
 puts 'Enter a comma separated list of keywords.'
 keywords = gets.chomp.split(',')
-#keywords = ["AGDG", "agdg", "gamedev", "vidyadev"]
+#keywords = ["Riley K", "Sydney P", "gamedev", "vidyadev"]
 =begin
 puts "Please enter comma seperated keywords"
   keywords = gets.chomp
